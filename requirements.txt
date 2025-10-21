@@ -1,0 +1,7 @@
+fastapi==0.119.1
+fuzzywuzzy==0.18.0
+pydantic==2.12.3
+pymorphy2==0.9.1
+pymorphy3==2.0.6
+Requests==2.32.5
+uvicorn==0.38.0

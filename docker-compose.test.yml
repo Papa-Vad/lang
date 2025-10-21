@@ -1,0 +1,8 @@
+services:
+  tester:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    network_mode: "host"
+    environment:
+      - SERVICE_URL=http://localhost:8978

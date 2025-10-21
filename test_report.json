@@ -1,0 +1,963 @@
+{
+  "summary": {
+    "total_tests": 19,
+    "passed_tests": 10,
+    "failed_tests": 9,
+    "success_rate": 52.63157894736842
+  },
+  "results": [
+    {
+      "test_case_id": 1,
+      "passed": false,
+      "errors": [
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 3, 'article': '489', 'point_article': '24', 'subpoint_article': 'и'}",
+        "Лишняя ссылка 1: {'law_id': 3, 'article': '489', 'point_article': None, 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 3,
+          "article": "489",
+          "point_article": "24",
+          "subpoint_article": "и"
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 3,
+          "article": "489",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "Во время проверки воздушного судна была обнаружена необходимость уточнения некоторых процедур. В соответствии с пп. и п. 24 ст. 489 Воздушного кодекса РФ, инспектор обязал авиакомпанию провести дополнительные меры безопасности. Эти меры направлены на обеспечение максимальной защиты пассажиров и экипажа."
+    },
+    {
+      "test_case_id": 2,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "я"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "26"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "29"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "22"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "3"
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "я"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "26"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "29"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "22"
+        },
+        {
+          "law_id": 3,
+          "article": "1048.15-8",
+          "point_article": "ъ",
+          "subpoint_article": "3"
+        }
+      ],
+      "text": "В ходе заседания представитель компании-перевозчика указал на соблюдение всех требований безопасности, предусмотренных действующим законодательством. В частности, он обратил внимание на соответствие оборудования подпп. я, 26, 29, 22, 3 п. ъ ст. 1048.15-8 Воздушного кодекса. Суд принял данную информацию к сведению при вынесении решения."
+    },
+    {
+      "test_case_id": 3,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 19,
+          "article": "115.13",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 19,
+          "article": "115.13",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "Компания «Речные перевозки» обратилась в суд с жалобой на неправомерные действия капитана Лебедева, обвиняя его в нарушении правил эксплуатации судна. Согласно ст. 115.13 Кодекса внутреннего водного транспорта, капитан обязан обеспечить безопасное передвижение судов в условиях ограниченной видимости. Судебное заседание назначено на следующую неделю для рассмотрения всех обстоятельств дела."
+    },
+    {
+      "test_case_id": 4,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 15,
+          "article": "158",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1784",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "730.11",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1722",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "249",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "51.8-7",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1689.6-11",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "18",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1287.2",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 15,
+          "article": "158",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1784",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "730.11",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1722",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "249",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "51.8-7",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1689.6-11",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "18",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 15,
+          "article": "1287.2",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "В ходе налоговой проверки компании «ТехноТрейд» были выявлены нарушения, связанные с занижением налогооблагаемой базы. Согласно ст. 158, 1784, 730.11, 1722, 249, 51.8-7, 1689.6-11, 18 и 1287.2 Налогового кодекса, предприятию грозит значительный штраф и требование привести свою финансовую отчетность в соответствие с законодательством. Руководству компании была предоставлена возможность обжаловать решение в установленном законом порядке."
+    },
+    {
+      "test_case_id": 5,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 4, получено 1",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 1, 'article': '1930.7', 'point_article': '26', 'subpoint_article': 'Х'}",
+        "Отсутствует ожидаемая ссылка 2: {'law_id': 1, 'article': '1930.7', 'point_article': '26', 'subpoint_article': 'д'}",
+        "Отсутствует ожидаемая ссылка 3: {'law_id': 1, 'article': '1930.7', 'point_article': '26', 'subpoint_article': '21'}",
+        "Отсутствует ожидаемая ссылка 4: {'law_id': 1, 'article': '1930.7', 'point_article': '26', 'subpoint_article': 'в'}",
+        "Лишняя ссылка 1: {'law_id': 1, 'article': '1930.7', 'point_article': '26', 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 1,
+          "article": "1930.7",
+          "point_article": "26",
+          "subpoint_article": "Х"
+        },
+        {
+          "law_id": 1,
+          "article": "1930.7",
+          "point_article": "26",
+          "subpoint_article": "д"
+        },
+        {
+          "law_id": 1,
+          "article": "1930.7",
+          "point_article": "26",
+          "subpoint_article": "21"
+        },
+        {
+          "law_id": 1,
+          "article": "1930.7",
+          "point_article": "26",
+          "subpoint_article": "в"
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 1,
+          "article": "1930.7",
+          "point_article": "26",
+          "subpoint_article": null
+        }
+      ],
+      "text": "Компания, занимающаяся транспортировкой грузов, была подвергнута аудиту налоговыми органами. Было установлено, что она не соблюдала требования, указанные в пп. Х, д, 21, и в п. 26 ст. 1930.7 Бюджетного кодекса РФ. Руководство обязали исправить нарушения в течение месяца, чтобы избежать штрафных санкций."
+    },
+    {
+      "test_case_id": 6,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 14,
+          "article": "6.9-13",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "538",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "1170.14-8",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "597.8",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "227",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "448-8",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 14,
+          "article": "6.9-13",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "538",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "1170.14-8",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "597.8",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "227",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 14,
+          "article": "448-8",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "В ходе проведения экологической экспертизы было установлено, что действия компании \"Зелёный мир\" нарушают положения ст. 6.9-13, 538, 1170.14-8, 597.8, 227 и 448-8 Лесного кодекса. Это включает в себя несоблюдение правил лесовосстановления и нарушения в управлении лесными ресурсами. В связи с выявленными нарушениями компании выдано предписание о разработке плана мероприятий по устранению допущенных нарушений."
+    },
+    {
+      "test_case_id": 7,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 16,
+          "article": "1035.5-7",
+          "point_article": "с",
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 16,
+          "article": "1035.5-7",
+          "point_article": "с",
+          "subpoint_article": null
+        }
+      ],
+      "text": "В ходе заседания муниципального земельного комитета было принято решение о перераспределении участков согласно п. с ст. 1035.5-7 Земельного кодекса. Это позволит более эффективно использовать территорию для общественных нужд и развития инфраструктуры. Решение единогласно поддержано всеми членами комитета."
+    },
+    {
+      "test_case_id": 8,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 17,
+          "article": "929",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 17,
+          "article": "681.14",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 17,
+          "article": "1988",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 17,
+          "article": "929",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 17,
+          "article": "681.14",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 17,
+          "article": "1988",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "Компания «ТранспортЛайн» была привлечена к ответственности за нарушение норм перевозки грузов. Согласно требованиям ст. 929, 681.14 и 1988 Кодекса об административных правонарушениях, ответственность за подобные нарушения может включать штрафы и отзыв лицензии. Специалисты компании обещали устранить все замечания в кратчайшие сроки."
+    },
+    {
+      "test_case_id": 9,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 3, получено 0",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 741, 'article': '740.8', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 2: {'law_id': 741, 'article': '76.5', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 3: {'law_id': 741, 'article': '292', 'point_article': None, 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 741,
+          "article": "740.8",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 741,
+          "article": "76.5",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 741,
+          "article": "292",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [],
+      "text": "В целях обеспечения природоохранных мероприятий на территории архипелага были приняты новые меры. Согласно ст. 740.8, 76.5 и 292 Указа Президента России №145 «О создании Фонда по сохранению и развитию Соловецкого архипелага», предусматривается дополнительное финансирование экологических инициатив в регионе. Эти меры помогут сохранить уникальную экосистему островов для будущих поколений."
+    },
+    {
+      "test_case_id": 10,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 1, получено 0",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 582, 'article': '1097', 'point_article': None, 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 582,
+          "article": "1097",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [],
+      "text": "В ходе аудита было выявлено несоответствие финансовой отчетности компании с текущими законодательными требованиями. Руководству компании рекомендовано внести изменения в соответствии со ст. 1097 Указа Президента Российской Федерации №474 от 26.06.2023 «Об изменении и признании утратившими силу некоторых актов Президента Российской Федерации», чтобы избежать юридических последствий."
+    },
+    {
+      "test_case_id": 11,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 9, получено 0",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 569, 'article': '843', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 2: {'law_id': 569, 'article': '1190-11', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 3: {'law_id': 569, 'article': '1541.1-14', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 4: {'law_id': 569, 'article': '892.3', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 5: {'law_id': 569, 'article': '462', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 6: {'law_id': 569, 'article': '1129.15-14', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 7: {'law_id': 569, 'article': '665', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 8: {'law_id': 569, 'article': '1190', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 9: {'law_id': 569, 'article': '1648', 'point_article': None, 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 569,
+          "article": "843",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "1190-11",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "1541.1-14",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "892.3",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "462",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "1129.15-14",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "665",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "1190",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 569,
+          "article": "1648",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [],
+      "text": "На прошедшем заседании президентской комиссии было принято решение о внедрении нового процесса для федеральных органов исполнительной власти. Соответственно требованиям статей 843, 1190-11, 1541.1-14, 892.3, 462, 1129.15-14, 665, 1190 и 1648 Указа Президента РФ «О временном порядке открытия федеральными органами исполнительной власти счетов в уполномоченных банках и осуществления валютных операций с использованием таких счетов», все ведомства обязаны в кратчайшие сроки адаптировать свои финансовые операции. Это решение направлено на повышение прозрачности и подотчетности операций с валютными счетами."
+    },
+    {
+      "test_case_id": 12,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 8, получено 0",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '1'}",
+        "Отсутствует ожидаемая ссылка 2: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '6'}",
+        "Отсутствует ожидаемая ссылка 3: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '26'}",
+        "Отсутствует ожидаемая ссылка 4: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '24'}",
+        "Отсутствует ожидаемая ссылка 5: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '10'}",
+        "Отсутствует ожидаемая ссылка 6: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '1'}",
+        "Отсутствует ожидаемая ссылка 7: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '20'}",
+        "Отсутствует ожидаемая ссылка 8: {'law_id': 902, 'article': '1315', 'point_article': '17', 'subpoint_article': '7'}"
+      ],
+      "expected": [
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "1"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "6"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "26"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "24"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "10"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "1"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "20"
+        },
+        {
+          "law_id": 902,
+          "article": "1315",
+          "point_article": "17",
+          "subpoint_article": "7"
+        }
+      ],
+      "actual": [],
+      "text": "В ходе аудита деятельности компании выявлены нарушения, которые подпадают под действие подпп. 1, 6, 26, 24, 10, 20 и 7 п. 17 ст. 1315 Указа Президента РФ №513. В связи с этим, руководству предписано принять меры по устранению проблем в кратчайшие сроки. Несоблюдение данных рекомендаций может повлечь за собой санкции, предусмотренные законодательством."
+    },
+    {
+      "test_case_id": 13,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 720,
+          "article": "247",
+          "point_article": "26",
+          "subpoint_article": "30"
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 720,
+          "article": "247",
+          "point_article": "26",
+          "subpoint_article": "30"
+        }
+      ],
+      "text": "Во время заседания комиссии по вопросам гражданства обсуждалось обращение гражданина Петрова о предоставлении ему гражданства РФ. В решении было отмечено, что рассмотрение этого вопроса должно происходить в строгом соответствии с пп. 30 п. 26 ст. 247 Указа Президента Российской Федерации «Об утверждении состава Комиссии по вопросам гражданства при Президенте Российской Федерации». Председатель комиссии подчеркнул важность соблюдения всех процедурных норм, указанных в данном документе."
+    },
+    {
+      "test_case_id": 14,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 1036,
+          "article": "1836",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "1670.10",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "802",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "270",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "1351",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "930",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 1036,
+          "article": "1836",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "1670.10",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "802",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "270",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "1351",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 1036,
+          "article": "930",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "Главный бухгалтер компании представил отчет о финансовом состоянии, ссылаясь на статьи 1836, 1670.10, 802, 270, 1351 и 930 Положения по ведению бухгалтерского учета и бухгалтерской отчетности в Российской Федерации. Он отметил, что соблюдение этих норм критично для обеспечения прозрачности и достоверности финансовой информации. В связи с этим компания планирует провести внутренний аудит на следующей неделе."
+    },
+    {
+      "test_case_id": 15,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 10, получено 0",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 574, 'article': '781.11-6', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 2: {'law_id': 574, 'article': '301.8-11', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 3: {'law_id': 574, 'article': '1624', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 4: {'law_id': 574, 'article': '937.10-6', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 5: {'law_id': 574, 'article': '813', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 6: {'law_id': 574, 'article': '872', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 7: {'law_id': 574, 'article': '701.3-4', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 8: {'law_id': 574, 'article': '1122', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 9: {'law_id': 574, 'article': '507', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 10: {'law_id': 574, 'article': '1375', 'point_article': None, 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 574,
+          "article": "781.11-6",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "301.8-11",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "1624",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "937.10-6",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "813",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "872",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "701.3-4",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "1122",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "507",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 574,
+          "article": "1375",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [],
+      "text": "Министерство финансов Российской Федерации опубликовало разъяснения по вопросам применения положений ст. 781.11-6, 301.8-11, 1624, 937.10-6, 813, 872, 701.3-4, 1122, 507 и 1375 Указа Президента Российской Федерации от 09.09.2023. Эти статьи касаются временного порядка исполнения перед резидентами и иностранными кредиторами государственных долговых обязательств Российской Федерации. Специалисты подчеркивают важность соблюдения всех норм, изложенных в «О временном порядке исполнения перед резидентами и иностранными кредиторами государственных долговых обязательств Российской Федерации, выраженных в государственных ценных бумагах, номинальная стоимость которых указана в иностранной валюте, и иных обязательств по иностранным ценным бумагам»."
+    },
+    {
+      "test_case_id": 16,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 1, получено 0",
+        "Отсутствует ожидаемая ссылка 1: {'law_id': 803, 'article': '164', 'point_article': '23', 'subpoint_article': '12'}"
+      ],
+      "expected": [
+        {
+          "law_id": 803,
+          "article": "164",
+          "point_article": "23",
+          "subpoint_article": "12"
+        }
+      ],
+      "actual": [],
+      "text": "В ходе проверки декларации о доходах государственного служащего выявлены несоответствия, которые, согласно подп. 12 п. 23 ст. 164 Указа Президента РФ от 02.04.2013 «О мерах по реализации отдельных положений Федерального закона \"О контроле за соответствием расходов лиц, замещающих государственные должности, и иных лиц их доходам\"», подлежат дополнительному анализу. В связи с этим, было принято решение провести расширенное расследование в отношении указанных расходов."
+    },
+    {
+      "test_case_id": 17,
+      "passed": false,
+      "errors": [
+        "Неверное количество ссылок: ожидалось 8, получено 3",
+        "Отсутствует ожидаемая ссылка 4: {'law_id': 6, 'article': '336', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 5: {'law_id': 6, 'article': '1460.11-1', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 6: {'law_id': 6, 'article': '85-4', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 7: {'law_id': 6, 'article': '577', 'point_article': None, 'subpoint_article': None}",
+        "Отсутствует ожидаемая ссылка 8: {'law_id': 6, 'article': '130-12', 'point_article': None, 'subpoint_article': None}"
+      ],
+      "expected": [
+        {
+          "law_id": 6,
+          "article": "1538-14",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "891-7",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "693.9-7",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "336",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "1460.11-1",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "85-4",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "577",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "130-12",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 6,
+          "article": "1538-14",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "891-7",
+          "point_article": null,
+          "subpoint_article": null
+        },
+        {
+          "law_id": 6,
+          "article": "693.9-7",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "На собрании юридического комитета обсуждались изменения в ст. 1538-14, 891-7 и 693.9-7 ГПК, которые касаются процедурного порядка подачи апелляционных жалоб. Спикер отметил, что согласно обновленным требованиям ст. 336, 1460.11-1, 85-4 и 577, участники процесса обязаны следовать новым срокам и формам подачи документов. В завершение заседания была рассмотрена статья 130-12, касающаяся порядка уведомления сторон в гражданских разбирательствах."
+    },
+    {
+      "test_case_id": 18,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 8,
+          "article": "1506",
+          "point_article": "2",
+          "subpoint_article": "ж"
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 8,
+          "article": "1506",
+          "point_article": "2",
+          "subpoint_article": "ж"
+        }
+      ],
+      "text": "В ходе судебного заседания по вопросу наследования было установлено, что права истца на получение имущества защищены законодательством. В частности, это регулируется пп. ж п. 2 ст. 1506 Семейного кодекса РФ, что позволяет оспорить права других наследников. Суд принял решение в пользу истца, основываясь на данной норме законодательства."
+    },
+    {
+      "test_case_id": 19,
+      "passed": true,
+      "errors": [],
+      "expected": [
+        {
+          "law_id": 1,
+          "article": "1674.15",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "actual": [
+        {
+          "law_id": 1,
+          "article": "1674.15",
+          "point_article": null,
+          "subpoint_article": null
+        }
+      ],
+      "text": "В ходе проверки финансовой отчётности компании «Альфа» были выявлены нарушения, касающиеся нецелевого использования бюджетных средств. Согласно статье 1674.15 Бюджетного кодекса России, такие действия компании считаются противозаконными и подлежат административной ответственности. Руководству было предписано устранить нарушения в срок до конца месяца."
+    }
+  ]
+}
