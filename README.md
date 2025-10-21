@@ -24,11 +24,15 @@ test_text = """
 
 1. Запуск 
 docker build -t law-links-service .
+
+
 docker run -d -p 8978:8978 --name law-links-container law-links-service
 
 
 2. Тестирование (автотест выдает полный отчет по 19 кейсам из demo_test_cases.json)
 
 docker-compose -f docker-compose.test.yml up --build
+
+
 docker cp homework_1-tester-1:/app/test_report.json ./test_report.json
 
